@@ -8,7 +8,7 @@ orbs:
   terraform: circleci/terraform@3.0.0
 
 workflows:
-  run_test:
+  welcome:
     jobs:
       run_tests:
         docker:
